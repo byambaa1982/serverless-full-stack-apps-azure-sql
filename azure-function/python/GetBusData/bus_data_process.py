@@ -51,7 +51,7 @@ def get_geo_fences(conn, payload: list[dict[str: Any]]):
 
 
     return result 
-
+# I am just testing git push here 
 def get_monitored_routes(conn) -> list[int]:
     """Return a list of the route_ids to inspect for"""
     with conn.cursor() as cursor:
